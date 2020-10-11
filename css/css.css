@@ -1,6 +1,7 @@
 *{
 padding: 0;
-margin: 0;s	
+margin: 0;
+font-family:'Didact Gothic', sans-serif;	
 }
 
 .general{
@@ -10,10 +11,13 @@ background-color: 	brown;
 }
 .banner1{
 width: 100%;
-height: 400px;
+height: auto;
 background-color: grey;	
 }
+.banner1 img{
+width: 100%;
 
+} 
 .logo{
 width: 112px;
 float: left;
@@ -58,31 +62,166 @@ nav ul li a{
 }
 
 .mh{
-display: flex;
-justify-content: center;	
+margin: auto;
 margin-top: 40px;	
 width:80%;
-margin: auto;
-height: 900px;
+height: 1800px;
 background-color: aquamarine;	
+
 }
 .cajas{
 float: left;
-width: 35%;
-height: 240px;
-margin-left:5px;
-margin-right:5px;	
+margin-top: 25px;	
+width:32%;
+height:350px;
+margin-left:10px;
+box-sizing: border-box;	
+background-color: hotpink;	
+}
+
+.cajas_m{
+float: left;
+margin-top: 25px;	
+width:32%;
+height:350px;
+margin-left:10px;
+box-sizing: border-box;	
+background-color: hotpink;	
+}
+.cajas_c{
+float: left;
+margin-top: 25px;	
+width:35%;
+height:350px;
+margin-left:10px;
+box-sizing: border-box;	
 background-color: hotpink;
+
+	
 	
 	
 }
 
-.cajas img{
+.cajas img{	
 width:55%;
+margin-top:;
 display: block;
 margin-left: auto;
 margin-right: auto;
 }
+.cajas_m img{	
+width:55%;
+margin-top:;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.cajas_c img{	
+width:55%;
+margin-top:;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.cajas  h1{	
+display: block;
+margin-right: auto;
+margin-left: auto;	
+text-align: center;
+font-size: 17px;	
+}
+.cajas_m  h1{	
+display: block;
+margin-right: auto;
+margin-left: auto;	
+text-align: center;
+font-size: 17px;	
+}
+
+.cajas_c  h1{	
+display: block;
+margin-right: auto;
+margin-left: auto;	
+text-align: center;
+font-size: 17px;	
+}
+.cajas  h2{	
+display: block;
+margin-right: auto;
+margin-left: auto;	
+text-align: center;
+margin-top: -10px;	
+}
+
+.cajas_m  h5{	
+display: block;
+margin-right: auto;
+margin-left: auto;	
+text-align: center;
+margin-top:75px;	
+}
+
+.abajo{
+width:100%;
+height: 100px;
+background-color: beige;
+	
+}
+
+.cajas h3{
+font-size:30px;	
+margin-top:28px;
+text-align: center;
+font-size: 20px;	
+}
+
+.cajas h4{
+font-size:30px;	
+margin-top:58px;
+text-align: center;
+font-size:15px;	
+}
+.cajas_c h4{
+font-size:30px;	
+margin-top:58px;
+text-align: center;
+font-size: 15px;	
+}
+.precio{
+float: left;
+margin-top: 35px;
+margin-left: 45px;
+}
+
+.add{
+margin-top: 25px;
+border-style: none;
+background-color: aqua;
+float: right;
+width: 35%;
+height: 40px;	
+border-radius: 30px;
+margin-right: 15px;	
+	
+}
+.add_p{
+text-align: center;
+margin-top: 12px;	
+}
+
+.centro{
+	visibility: visible;
+	margin: auto;
+	display:flex;
+	justify-content: center;
+width: 80%;
+height: 400px;
+background-color: cadetblue;	
+
+}
+
+
 .banner2{
 margin: auto;	
 width: 80%;
@@ -90,10 +229,94 @@ height: 400px;
 background-color: red;
 }
 
+#mostrar{
+display: none;	
+}
+
 footer{
 width: 100%;
 height: 100px;
 background-color: beige;	
 }
+@media screen and (max-width: 767px){
+	.mh{
+	width: 100%;	
+	height: 800px;	
+	}
+	.cajas{
+float: left;
+margin-top:45px;	
+width:48%;
+height: 200px;
+margin-left:5px;
+background-color: hotpink;
+	
+	
+}
+	.cajas_m{
+float: left;
+margin-top:45px;	
+width:48%;
+height: 200px;
+margin-left:5px;
+background-color: hotpink;
+	
+	
+}
+	
+	.cajas  h1{	
+display: block;
+margin-right: auto;
+margin-left: auto;	
+text-align: center;
+font-size: 10px;	
+}
+	.cajas_m  h{	
+display: block;
+margin-right: auto;
+margin-left: auto;	
+text-align: center;
+font-size: 10px;	
+}
+	.cajas h3{
+	font-size:30px;	
+margin-top:15px;
+text-align: center;	
+font-size:10px;	
+	
+}
+	.precio{
+float: left;
+margin-top: 35px;
+margin-left:25px;
+}
+	
 
+.centro{
+	visibility: hidden;
+	margin: auto;
+	display:flex;
+	justify-content: center;
+width: 80%;
+height: 400px;
+background-color: cadetblue;	
+
+}
+.cajas_m  h5{	
+display: block;
+margin-right: auto;
+margin-left: auto;	
+text-align: center;
+margin-top:30px;	
+font-size: 10px;	
+}
+
+
+	#oculto{
+		display: none;
+	}
+#mostrar{
+display: block;	
+}
+}
 
