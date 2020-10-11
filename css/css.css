@@ -1,0 +1,99 @@
+*{
+padding: 0;
+margin: 0;s	
+}
+
+.general{
+width: 100%;
+height: auto;
+background-color: 	brown;
+}
+.banner1{
+width: 100%;
+height: 400px;
+background-color: grey;	
+}
+
+.logo{
+width: 112px;
+float: left;
+margin-top:-30px;
+margin-right:px;
+}
+
+.carrito{
+width: 36px;
+margin-top: 10px;
+margin-left:px;
+
+}
+nav.desk{
+	width: 100%;
+	background-color: #EBA421;
+	height: 60px;
+	margin-bottom: 60px;
+}
+
+nav.desk ul{
+	list-style:none;
+	width: 75%;
+	height: 60px;
+	margin:auto;
+}
+
+nav.desk ul li{
+	width: 15%;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+	cursor: pointer;
+	transition:all 0.5s;
+	text-decoration: none;
+}
+
+nav ul li a{
+	color: #ffff;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.mh{
+display: flex;
+justify-content: center;	
+margin-top: 40px;	
+width:80%;
+margin: auto;
+height: 900px;
+background-color: aquamarine;	
+}
+.cajas{
+float: left;
+width: 35%;
+height: 240px;
+margin-left:5px;
+margin-right:5px;	
+background-color: hotpink;
+	
+	
+}
+
+.cajas img{
+width:55%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.banner2{
+margin: auto;	
+width: 80%;
+height: 400px;
+background-color: red;
+}
+
+footer{
+width: 100%;
+height: 100px;
+background-color: beige;	
+}
+
+
