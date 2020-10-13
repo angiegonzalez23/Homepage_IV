@@ -252,22 +252,23 @@ display: flex;
 align-content: center;
 width: 100%;
 height: 60px;
-background-color: chartreuse;	
+/*background-color: chartreuse;	*/
 }
 
 .all_m{
 margin: auto;
-
 width: 200px;
 height: 50px;
 background-color: #F23030;	
-border-radius: 15px;
+border-radius: 25px;
+
 }
-.all_m p{
-text-align: center;
+.all_m h7{
+float: left;
 color: #ffff;
-margin-top: 34px;
-font-size: 16px;	
+margin-top: 20px;
+margin-left: 45px;	
+font-size: 18px;	
 }
 
 .banner2{
@@ -343,6 +344,18 @@ margin-top: 45px;
 }
 
 
+.banner4{
+margin: auto;	
+margin-top: 100px;
+margin-bottom: 100px;
+width: 100%;
+
+}
+
+.banner4 img{
+width: 100%;
+}
+
 #mostrar{
 display: none;	
 }
@@ -378,7 +391,7 @@ display: none;
 display: none;
 }
 
-/*@media screen and (max-width: 767px){
+@media screen and (max-width: 767px){
 	.h-bt{
 	
 	position: relative;	
@@ -488,6 +501,21 @@ text-align: center;
 margin-top:45px;	
 font-size: 10px;	
 }
+.cajas img{	
+width:45%;
+margin-top:;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+	
+.cajas_m img{	
+width:39%;
+margin-top:;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
 
 
 	#oculto{
@@ -496,6 +524,16 @@ font-size: 10px;
 #mostrar{
 display: block;	
 }
+	
+	.info_f{
+margin: auto;
+margin-top: 5px;
+		
+width: 50%;	
+/*background-color: aqua;	*/
+text-align: center;	
+color:#EBA421;
+
+}
 }
 
-*/
