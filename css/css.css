@@ -69,8 +69,8 @@ nav ul li a{
 margin: auto;
 margin-top: 40px;	
 width:80%;
-height: 1800px;
-/*background-color: aquamarine;	*/
+height: 1600px;
+	
 
 }
 .cajas{
@@ -272,10 +272,76 @@ font-size: 16px;
 
 .banner2{
 margin: auto;	
-width: 80%;
-height: 400px;
-background-color: red;
+width: 70%;
+height: 200px;
+background-color: #EBA421;
 }
+.Amarillo{
+
+float: left;
+margin-top: 5px;
+margin-left: 10px;	
+width:98%;
+background-color: #F23030;
+height: 190px;
+
+}
+.papaygaseosa{
+float: right;
+width:45%;
+
+
+	
+}
+.Amarillo p{
+float: left;
+margin-top: 45px;
+margin-left: 30px;
+font-size: 35px;
+color: #EBA421;
+
+
+	
+}
+
+
+.papaygaseosa img{
+width: 40%;
+margin-right: -30px;
+	
+}
+
+.video{
+margin-top: 300px;	
+width: 100%;
+height: 400px;
+ background-color: #F9E1B5;
+margin-bottom: 300px;
+	
+}
+.video p{
+float: left;
+color: #EBA421;
+
+}
+
+.info{
+width: 25%;
+margin-top: 50px;
+margin-left: 280px;
+float: left;
+font-size: 18px;
+color: #EBA421;
+text-align:justify-all;
+}
+
+
+.g_v{
+float: right;
+margin-right: 55px;
+margin-top: 45px;
+}
+
 
 #mostrar{
 display: none;	
@@ -284,7 +350,7 @@ display: none;
 footer{
 width: 100%;
 height: 100px;
-background-color: beige;	
+background-color: gold;	
 }
 mob{
 display: none;
@@ -292,7 +358,8 @@ display: none;
 .h-bt{
 display: none;
 }
-/*@media screen and (max-width: 700px){
+
+/*@media screen and (max-width: 767px){
 	.h-bt{
 	
 	position: relative;	
